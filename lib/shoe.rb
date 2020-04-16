@@ -1,12 +1,12 @@
 class Shoe
   
-  attr_accessor :brand, :color, :size
-  def initialize(shoe)
-    @shoe= shoe
+  attr_accessor :brand, :color, :size, :material, :condition
+  def initialize(brand)
+    @brand= brand
   end
   
-  def shoe
-    @shoe
+  def brand
+    @brand
   end
   
   
